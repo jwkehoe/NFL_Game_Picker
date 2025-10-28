@@ -1,0 +1,38 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+venv/
+.venv/
+.env
+
+# Project outputs (not for version control)
+logs/
+data/raw/
+data/processed/
+data/normalized/
+data/features/
+data/models/
+data/predictions/
+data/external/
+data/reports/
+
+# Archives and binaries
+*.zip
+*.tar.gz
+*.xz
+*.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+
